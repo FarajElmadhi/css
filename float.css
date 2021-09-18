@@ -1,0 +1,67 @@
+div {
+  border-radius: 3px;
+}
+
+.clear {
+  clear: both;
+  background-color: white;
+}
+.top,
+.carousel,
+.txt,
+.avatar,
+.title,
+.footer,
+.middle .photo {
+  background-color: grey;
+}
+
+.top {
+  height: 50px;
+  margin: 10px 10px 40px 10px;
+}
+
+.carousel {
+  height: 300px;
+  margin: 10px 10px 150px 10px;
+}
+.middle {
+  margin-bottom: 200px;
+}
+
+.div-middle {
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+.photo {
+  width: calc(30% - 20px);
+}
+
+.desc {
+  width: calc(70% - 20px);
+}
+.txt {
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.profile {
+  float: left;
+  margin-left: calc((100% - 60%) / 4);
+  width: 20%;
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.avatar {
+  height: 200px;
+  margin-bottom: 60px;
+}
+.title {
+  height: 30px;
+}
+
+.footer {
+  height: 200px;
+}
